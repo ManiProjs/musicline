@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+__MACOSX
+
+# editor files
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+
+# Virtual environment
+.venv/
+.ruff_cache/
