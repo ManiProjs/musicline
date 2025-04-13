@@ -130,11 +130,11 @@ class Musicline(App):
 
     MUSIC_INFO_MARKDOWN = "# No music is currently playing"
 
-    CONFIG_FILE = "musicline.conf"
+    CONFIG_FILE = os.path.expanduser("~/.config/musicline/musicline.conf")
 
     def __init__(self):
         super().__init__()
-        if not os.path.exists(os.getcwd() + "/" + self.CONFIG_FILE):
+        if not os.path.exists(self.CONFIG_FILE):
             print("Config file not found")
             exit(1)
 
