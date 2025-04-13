@@ -1,0 +1,25 @@
+name: Setup Node.js and cache dependencies
+
+inputs:
+  node-version:
+    required: true
+    description: "The Node.js version to use"
+  cache-key:
+  cache-key:
+    required: true
+    description: "The key used for caching node_modules"
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: node_modules
+        key: ${{ inputs.cache-key }}
+        restore-keys: |
+          ${{ runner.os }}-node-
