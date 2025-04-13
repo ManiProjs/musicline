@@ -1,48 +1,36 @@
-# Musicline
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Music in a terminal.
+## Getting Started
 
-MusicLine is a music player in the terminal. It is written in Python and uses [pygame](https://www.pygame.org/news) for playing music.
-It is a simple and lightweight music player that can play music in the terminal. TUI uses Textual.
-It is designed for command-line lovers who want to listen to music while working in the terminal.
-It mix music with terminal vibes.
+First, run the development server:
 
-## Installation
-
-### With `pip`
-
-```shell
-pip install musicline
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### With Homebrew
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Not avaliable yet.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### With a shell script
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-This script installs Python and MusicLine with Pip to simplify the installation.
+## Learn More
 
-The script is not ready yet.
+To learn more about Next.js, take a look at the following resources:
 
-## Help
-When you open the app for the first time, you will be confused. Why? Because you're new to MusicLine. Press on **h** key on your keyboard when you are in the main menu to show Help menu.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Press **q** to quit the menu (not the app)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Dependencies
+## Deploy on Vercel
 
-Without these modules, this project wouldn't be a thing. Thanks to all of them (and their authors).
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- [pygame](https://www.pygame.org/news): pygame is a set of Python modules designed for writing video games. It provides functionalities like sound, music, and graphics.
-- [textual](https://textual.textualize.io/): Textual is a TUI (Text User Interface) framework for Python, allowing developers to create interactive terminal applications with rich user interfaces.
-- [mutagen](https://mutagen.readthedocs.io/en/latest/): Mutagen is a Python module to handle audio metadata. It supports various formats, including MP3, FLAC, and Ogg Vorbis.
-- [tomlkit](https://tomlkit.readthedocs.io/en/latest/): A Python library for parsing and creating TOML files, which are used for configuration.
-
-## Contributing
-
-If you want to contribute to this project, please fork the repository and create a pull request. All contributions are welcome.
-
-Remember! You must act politely and respectfully. If you don't, you will be banned from the project.
-
-If you're already banned and want to be unbanned, please contact the author of the project with email. Email is available in About menu in the app.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
