@@ -1,6 +1,6 @@
 [project]
 name = "musicline"
-version = "0.1.0"
+version = "0.1.1"
 description = "A music player, but in terminal"
 authors = [
     {name = "Mani Arasteh",email = "mani.arasteh92@gmail.com"}
