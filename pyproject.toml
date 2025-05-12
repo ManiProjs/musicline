@@ -6,7 +6,7 @@ authors = [
     {name = "Mani Arasteh",email = "mani.arasteh92@gmail.com"}
 ]
 
-license = { file = "LICENSE" }
+license = "MIT"
 
 readme = "README.md"
 requires-python = ">=3.10,<4.0.0"
