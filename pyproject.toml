@@ -20,6 +20,9 @@ dependencies = [
 [tool.poetry.group.dev.dependencies]
 textual-dev = "^1.7.0"
 
+[tool.uv.workspace]
+members = ["ml_config"]
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
